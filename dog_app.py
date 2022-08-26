@@ -181,7 +181,7 @@ st.write("""
          )
 st.write("This is a image classification web app to predict different dog breeds")
 
-uploaded_file = st.file_uploader("Please upload an image file", type="jpg")
+uploaded_file = st.file_uploader("Please upload an image file")
 if uploaded_file is not None:
     image = Image.open(uploaded_file)
     st.image(image, caption='Uploaded Image.',width = 399)
