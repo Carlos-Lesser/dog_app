@@ -8,21 +8,15 @@ The image on the left is a Boston Terrier and the Image on the right is a French
 ## :ledger: Index
 
 - [Introduction](#Introduction)
-- [Usage](#Usage)
+- [Usage](#zap-Usage)
 - [File Structure](#file_folder-file-structure) 
-- [Community](#cherry_blossom-community)
-  - [Contribution](#fire-contribution)
-  - [Branches](#cactus-branches)
-  - [Guideline](#exclamation-guideline)  
-- [FAQ](#question-faq)
-- [Resources](#page_facing_up-resources)
-- [Gallery](#camera-gallery)
-- [Credit/Acknowledgment](#star2-creditacknowledgment)
-- [License](#lock-license)
+- [Contribution](#fire-contribution)
+- [Conclusions](#dog-Conclusion)
 
 ## :zap: Usage
 - Vist the website by clicking the link below and Upload a Dog Image. 
 - [Website](https://carlos-lesser-dog-app-dog-app-38wto4.streamlitapp.com/)
+- The Notebook file is a walkthrough my entire project. In the Notebook you will find all the Code and a detail explanation of the project. 
 
 ##  :file_folder: File Structure
 Add a file structure here with the basic details about files, below is an example.
@@ -55,71 +49,85 @@ Add a file structure here with the basic details about files, below is an exampl
 
 ```
 
-###  :hammer: Build
-Write the build Instruction here.
+ ##  :fire: Contribution
 
-### :rocket: Deployment
-Write the deployment instruction here.
+ Your contributions are always welcome and appreciated.
 
-## :cherry_blossom: Community
+ 
+##  :dog: Conclusion
+The model performs well with 88% accuracy on the test. I was expecting to reach 70% accuracy on the model, and I was able to achieve that. The next time I do a classification problem, I would focus more on precision, recall and F1 scores.
 
-If it's open-source, talk about the community here, ask social media links and other links.
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>precision</th>
+      <th>recall</th>
+      <th>f1-score</th>
+      <th>support</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>count</th>
+      <td>123.000000</td>
+      <td>123.000000</td>
+      <td>123.000000</td>
+      <td>123.000000</td>
+    </tr>
+    <tr>
+      <th>mean</th>
+      <td>0.891019</td>
+      <td>0.883867</td>
+      <td>0.882351</td>
+      <td>52.470619</td>
+    </tr>
+    <tr>
+      <th>std</th>
+      <td>0.103806</td>
+      <td>0.124467</td>
+      <td>0.100322</td>
+      <td>270.915787</td>
+    </tr>
+    <tr>
+      <th>min</th>
+      <td>0.500000</td>
+      <td>0.450000</td>
+      <td>0.500000</td>
+      <td>0.886099</td>
+    </tr>
+    <tr>
+      <th>25%</th>
+      <td>0.846053</td>
+      <td>0.866667</td>
+      <td>0.852814</td>
+      <td>16.000000</td>
+    </tr>
+    <tr>
+      <th>50%</th>
+      <td>0.923077</td>
+      <td>0.933333</td>
+      <td>0.916667</td>
+      <td>17.000000</td>
+    </tr>
+    <tr>
+      <th>75%</th>
+      <td>0.952381</td>
+      <td>0.954545</td>
+      <td>0.945906</td>
+      <td>20.000000</td>
+    </tr>
+    <tr>
+      <th>max</th>
+      <td>1.000000</td>
+      <td>1.000000</td>
+      <td>1.000000</td>
+      <td>2151.000000</td>
+    </tr>
+  </tbody>
+</table>
+</div>
 
- ###  :fire: Contribution
-
- Your contributions are always welcome and appreciated. Following are the things you can do to contribute to this project.
-
- 1. **Report a bug** <br>
- If you think you have encountered a bug, and I should know about it, feel free to report it [here]() and I will take care of it.
-
- 2. **Request a feature** <br>
- You can also request for a feature [here](), and if it will viable, it will be picked for development.  
-
- 3. **Create a pull request** <br>
- It can't get better then this, your pull request will be appreciated by the community. You can get started by picking up any open issues from [here]() and make a pull request.
-
- > If you are new to open-source, make sure to check read more about it [here](https://www.digitalocean.com/community/tutorial_series/an-introduction-to-open-source) and learn more about creating a pull request [here](https://www.digitalocean.com/community/tutorials/how-to-create-a-pull-request-on-github).
+This project was fun, and it gave me a better understanding of CNN models and transfer learning. This knowledge can be applied to different industries such as manufacturing (for defect detection), medicine (to detect anomalies in organs or tissues), agriculture (to identify which plans need water or to spot plagues on the crops), commerce (to identify similar products). The next step would be to make an image recognition model to identify if the image is of a dog.
 
 
- ### :cactus: Branches
-
- I use an agile continuous integration methodology, so the version is frequently updated and development is really fast.
-
-1. **`stage`** is the development branch.
-
-2. **`master`** is the production branch.
-
-3. No other permanent branches should be created in the main repository, you can create feature branches but they should get merged with the master.
-
-**Steps to work with feature branch**
-
-1. To start working on a new feature, create a new branch prefixed with `feat` and followed by feature name. (ie. `feat-FEATURE-NAME`)
-2. Once you are done with your changes, you can raise PR.
-
-**Steps to create a pull request**
-
-1. Make a PR to `stage` branch.
-2. Comply with the best practices and guidelines e.g. where the PR concerns visual elements it should have an image showing the effect.
-3. It must pass all continuous integration checks and get positive reviews.
-
-After this, changes will be merged.
-
-
-### :exclamation: Guideline
-coding guidelines or other things you want people to follow should follow.
-
-
-## :question: FAQ
-You can optionally add a FAQ section about the project.
-
-##  :page_facing_up: Resources
-Add important resources here
-
-##  :camera: Gallery
-Pictures of your project.
-
-## :star2: Credit/Acknowledgment
-Credit the authors here.
-
-##  :lock: License
-Add a license here, or a link to it.
