@@ -28,29 +28,32 @@ The image on the left is a Boston Terrier and the Image on the right is a French
 Add a file structure here with the basic details about files, below is an example.
 
 ```
-.
-├── assets
-│   ├── css
-│   │   ├── index-ui.css
-│   │   └── rate-ui.css
-│   ├── images
-│   │   ├── icons
-│   │   │   ├── shrink-button.png
-│   │   │   └── umbrella.png
-│   │   ├── logo_144.png
-│   │   └── Untitled-1.psd
-│   └── javascript
-│       ├── index.js
-│       └── rate.js
-├── CNAME
-├── index.html
-├── rate.html
-└── README.md
-```
 
-| No | File Name | Details 
-|----|------------|-------|
-| 1  | index | Entry point
+├── Notebook
+│   ├── Dog Breed Image Classification Notebook.md
+│   ├── output_12_0.png
+│   ├── output_18_0.png
+│   ├── output_23_0.png
+│   ├── output_25_0.png
+│   ├── output_32_0.png
+│   ├── output_36_0.png   
+│   ├── output_56_0.png
+│   ├── output_62_0.png   
+│   ├── output_62_2.png
+│   ├── output_62_4.png
+│   ├── output_62_6.png
+│   ├── output_62_8.png
+│   ├── output_64_0.png
+├── .gitatributtes
+├── Procfile.txt
+├── README.md
+├── dog_app.py
+├── model.h5
+├── model.json
+├── requirements.txt
+└── setups.sh
+
+```
 
 ###  :hammer: Build
 Write the build Instruction here.
