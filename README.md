@@ -1,5 +1,5 @@
 # Introduction
-The World Canine Organization currently recognizes 339 breeds of dogs. One might think that identifying dog breeds is a simple task, but some breeds look so similar that can become difficult for humans to classify.For Example, in the Image below we can observe two different breeds that look almost the same. 
+The World Canine Organization currently recognizes 339 breeds of dogs. One might think that identifying dog breeds is a simple task, but some breeds look so similar that can become difficult for humans to classify. For Example, in the Image below we can observe two different breeds that look almost the same. 
 
 ![alt text](https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F47%2F2021%2F06%2F15%2FBoston-Terrier-vs-French-Bulldog-02-2-2000.jpg)
 
